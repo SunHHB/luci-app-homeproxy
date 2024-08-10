@@ -2,9 +2,10 @@ name: Build ipk for HomeProxy
 
 on:
   push:
+    tags:
+      - "*"
     branches:
       - 'master'
-      - 'dev'
     paths:
       - 'htdocs/**'
       - 'po/**'
