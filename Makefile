@@ -14,6 +14,8 @@ LUCI_DEPENDS:= \
 	+unzip
 
 PKG_NAME:=luci-app-homeproxy
+PKG_VERSION:=git-24.999.32222-ddd9f8f
+PKG_RELEASE:=1
 
 define Package/luci-app-homeproxy/conffiles
 /etc/config/homeproxy
